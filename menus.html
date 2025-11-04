@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #444;
+    margin: 0;
+    background-color: #f5f7fa;
+  }
+
+  header {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav {
+    background-color: #374151;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  nav a {
+    color: #f3f4f6;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  nav a:hover {
+    background-color: #2563eb;
+    color: white;
+  }
+
+  .main {
+    float: left;
+    width: 75%;
+    padding: 20px;
+  }
+
+  .right {
+    background-color: #e0e7ff;
+    float: left;
+    width: 25%;
+    padding: 15px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 8px;
+  }
+
+  @media only screen and (max-width: 620px) {
+    .main, .right {
+      width: 100%;
+    }
+  }
+
+  footer {
+    background-color: #1f2937;
+    color: #d1d5db;
+    text-align: center;
+    padding: 12px;
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Demostración de menús</h1>
+</header>
+
+<nav>
+  <a href="horizontal.html">Menú horizontal</a> |
+  <a href="vertical.html">Menú vertical</a> |
+  <a href="menudesplegable.html">Menú desplegable</a>
+</nav>
+
+<div style="overflow:auto">
+  <div class="main">
+    <h2>Lorem Ipsum</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+    <p>Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim.</p>
+  </div>
+
+  <div class="right">
+    <h2>Sobre nosotros</h2>
+    <p>hola Xavi</p>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  </div>
+</div>
+
+<footer>
+  (cc) Alex Climent — curso 25/26
+</footer>
+
+</body>
+</html>

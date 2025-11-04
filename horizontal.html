@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #444;
+    margin: 0;
+    background-color: #f8fafc;
+  }
+
+  header {
+    background-color: #2563eb;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Menú horizontal */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1e3a8a;
+  }
+
+  ul li {
+    float: left;
+  }
+
+  ul li a {
+    display: block;
+    color: #f3f4f6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  ul li a:hover {
+    background-color: #3b82f6;
+  }
+
+  .main {
+    float: left;
+    width: 75%;
+    padding: 20px;
+  }
+
+  .right {
+    background-color: #dbeafe;
+    float: left;
+    width: 25%;
+    padding: 15px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 8px;
+  }
+
+  footer {
+    color: white;
+    font-weight: bold;
+    background-color: #1e3a8a;
+    text-align: center;
+    padding: 10px;
+    margin-top: 7px;
+  }
+
+  @media only screen and (max-width: 620px) {
+    .main, .right {
+      width: 100%;
+    }
+    ul li {
+      float: none;
+      text-align: center;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Menú Horizontal - Demo</h1>
+</header>
+
+<div style="overflow:auto">
+
+
+
+  </ul>
+
+  <div class="main">
+    <h2>Lorem Ipsum</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+    <p>Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim.</p>
+  </div>
+
+  <div class="right">
+    <h2>Sobre este menú</h2>
+    <p>Este es un ejemplo de menú horizontal simple y adaptativo.</p>
+    <p>Se adapta automáticamente al ancho de la pantalla.</p>
+  </div>
+
+</div>
+
+<footer>
+  (cc) Alex Climent — curso 25/26
+</footer>
+
+</body>
+</html>
